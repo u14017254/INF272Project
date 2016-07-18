@@ -1,1 +1,10 @@
 S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\bin\Debug\PharmPlus.exe.config
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\bin\Debug\PharmPlus.exe
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\bin\Debug\PharmPlus.pdb
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.csprojResolveAssemblyReference.cache
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.Form1.resources
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.Form2.resources
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.Properties.Resources.resources
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.csproj.GenerateResource.Cache
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.exe
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.pdb
