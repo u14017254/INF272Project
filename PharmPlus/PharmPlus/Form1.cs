@@ -59,6 +59,7 @@ namespace PharmPlus
             }
             else
             {
+                this.progressBar1.Increment(Convert.ToInt32(counter/5));
                 counter--;
                 Opacity = counter * 0.5;
             }
