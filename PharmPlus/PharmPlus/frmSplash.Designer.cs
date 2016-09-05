@@ -1,6 +1,6 @@
 ﻿namespace PharmPlus
 {
-    partial class Form1
+    partial class frmSplash
     {
         /// <summary>
         /// Required designer variable.
@@ -52,9 +52,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::PharmPlus.Properties.Resources.Logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(875, 447);
+            this.pictureBox1.Size = new System.Drawing.Size(874, 506);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;

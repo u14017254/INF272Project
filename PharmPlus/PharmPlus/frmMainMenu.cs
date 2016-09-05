@@ -10,26 +10,16 @@ using System.Windows.Forms;
 
 namespace PharmPlus
 {
-    public partial class Form2 : Form
+    public partial class frmMainMenu : Form
     {
-        public Form2()
+        public frmMainMenu()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void menuItem1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

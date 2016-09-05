@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace PharmPlus
 {
-    public partial class Form1 : Form
+    public partial class frmSplash : Form
     {
         int counter = 0;
         int buffer = 0;
-        Form2 frm2 = new Form2();
-        public Form1()
+        frmLogin frm2 = new frmLogin();
+        public frmSplash()
         {
             InitializeComponent();
             Opacity = 0;
