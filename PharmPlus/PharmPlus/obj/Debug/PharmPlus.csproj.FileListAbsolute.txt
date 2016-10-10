@@ -19,3 +19,4 @@ C:\Users\Francois Venter\Desktop\INF 272 YearProj\Tool\PharmPlus\PharmPlus\obj\D
 S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.frmSplash.resources
 S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.frmLogin.resources
 S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.frmMainMenu.resources
+S:\INF 272\Project\INF272Project\PharmPlus\PharmPlus\obj\Debug\PharmPlus.frmAddClient.resources

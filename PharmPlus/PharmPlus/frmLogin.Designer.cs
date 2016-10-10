@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.txtBxPassword = new System.Windows.Forms.TextBox();
             this.txtBxUsername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -111,7 +112,7 @@
             this.btnLogIn.UseVisualStyleBackColor = true;
             this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
-            // Form2
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,7 +123,8 @@
             this.Controls.Add(this.txtBxUsername);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log In";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
