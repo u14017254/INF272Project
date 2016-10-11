@@ -54,6 +54,12 @@
     <Compile Include="frmAddClient.Designer.cs">
       <DependentUpon>frmAddClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddMedication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddMedication.Designer.cs">
+      <DependentUpon>frmAddMedication.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAddClient.resx">
       <DependentUpon>frmAddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddMedication.resx">
+      <DependentUpon>frmAddMedication.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainMenu.resx">
       <DependentUpon>frmMainMenu.cs</DependentUpon>

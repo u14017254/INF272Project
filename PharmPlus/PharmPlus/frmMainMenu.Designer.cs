@@ -37,10 +37,12 @@
             this.drugsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dgvMainMenu = new System.Windows.Forms.DataGridView();
             this.stockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dgvMainMenu = new System.Windows.Forms.DataGridView();
+            this.byNameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.byClientIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMainMenu)).BeginInit();
             this.SuspendLayout();
@@ -69,6 +71,9 @@
             // 
             // searchToolStripMenuItem
             // 
+            this.searchToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.byNameToolStripMenuItem,
+            this.byClientIDToolStripMenuItem});
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.searchToolStripMenuItem.Text = "Search";
@@ -114,6 +119,19 @@
             this.addToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.addToolStripMenuItem.Text = "Add";
             // 
+            // stockToolStripMenuItem
+            // 
+            this.stockToolStripMenuItem.Name = "stockToolStripMenuItem";
+            this.stockToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.stockToolStripMenuItem.Text = "Stock";
+            // 
+            // medicationToolStripMenuItem
+            // 
+            this.medicationToolStripMenuItem.Name = "medicationToolStripMenuItem";
+            this.medicationToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.medicationToolStripMenuItem.Text = "Medication";
+            this.medicationToolStripMenuItem.Click += new System.EventHandler(this.medicationToolStripMenuItem_Click);
+            // 
             // listAllToolStripMenuItem
             // 
             this.listAllToolStripMenuItem.Name = "listAllToolStripMenuItem";
@@ -130,17 +148,19 @@
             this.dgvMainMenu.Size = new System.Drawing.Size(1017, 457);
             this.dgvMainMenu.TabIndex = 1;
             // 
-            // stockToolStripMenuItem
+            // byNameToolStripMenuItem
             // 
-            this.stockToolStripMenuItem.Name = "stockToolStripMenuItem";
-            this.stockToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.stockToolStripMenuItem.Text = "Stock";
+            this.byNameToolStripMenuItem.Name = "byNameToolStripMenuItem";
+            this.byNameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.byNameToolStripMenuItem.Text = "By Name";
+            this.byNameToolStripMenuItem.Click += new System.EventHandler(this.byNameToolStripMenuItem_Click);
             // 
-            // medicationToolStripMenuItem
+            // byClientIDToolStripMenuItem
             // 
-            this.medicationToolStripMenuItem.Name = "medicationToolStripMenuItem";
-            this.medicationToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.medicationToolStripMenuItem.Text = "Medication";
+            this.byClientIDToolStripMenuItem.Name = "byClientIDToolStripMenuItem";
+            this.byClientIDToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.byClientIDToolStripMenuItem.Text = "By Client ID";
+            this.byClientIDToolStripMenuItem.Click += new System.EventHandler(this.byClientIDToolStripMenuItem_Click);
             // 
             // frmMainMenu
             // 
@@ -177,5 +197,7 @@
         private System.Windows.Forms.DataGridView dgvMainMenu;
         private System.Windows.Forms.ToolStripMenuItem stockToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem medicationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem byNameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem byClientIDToolStripMenuItem;
     }
 }
