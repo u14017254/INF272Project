@@ -225,8 +225,29 @@ namespace PharmPlus
 
         private void medicationToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void addToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             frmAddMedication frmAdd = new frmAddMedication();
             frmAdd.Show();
+        }
+
+        private void addToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            frmAddStock frmAdd = new frmAddStock();
+            frmAdd.Show();
+        }
+
+        private void viewStockLevelsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void viewStockLevelsGridToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
